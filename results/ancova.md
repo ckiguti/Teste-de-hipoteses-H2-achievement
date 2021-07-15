@@ -48,7 +48,7 @@ Geiser C. Challco <geiser@alumni.usp.br>
 | non.gamified | upper       | fss      |   7 | 3.286 |  3.333 | 2.556 | 3.889 | 0.528 | 0.200 | 0.489 | 0.722 | YES      |   -0.178 |   -1.724 |
 | NA           | NA          | fss      |  30 | 3.537 |  3.444 | 2.556 | 4.556 | 0.638 | 0.116 | 0.238 | 0.944 | YES      |    0.281 |   -1.212 |
 
-![](/home/rstudio/report/ancova/c398fc7079f00970/results/ancova_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
+![](ancova_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
 
 ## Checking of Assumptions
 
@@ -120,7 +120,7 @@ ggscatter(sdat[["fss"]], x=covar, y="fss", facet.by=between, short.panel.labs = 
 
     ## `geom_smooth()` using formula 'y ~ x'
 
-![](/home/rstudio/report/ancova/c398fc7079f00970/results/ancova_files/figure-gfm/unnamed-chunk-11-1.png)<!-- -->
+![](ancova_files/figure-gfm/unnamed-chunk-11-1.png)<!-- -->
 
 ### Assumption: Homogeneity of data distribution
 
@@ -146,7 +146,7 @@ Descriptive statistics of data with normal distribution
 | fss.3 | non.gamified | lower       | fss      |   7 | 3.810 |  3.667 | 3.222 | 4.556 | 0.543 | 0.205 | 0.502 | 0.833 |
 | fss.4 | non.gamified | upper       | fss      |   6 | 3.407 |  3.389 | 2.667 | 3.889 | 0.459 | 0.187 | 0.482 | 0.528 |
 
-![](/home/rstudio/report/ancova/c398fc7079f00970/results/ancova_files/figure-gfm/unnamed-chunk-17-1.png)<!-- -->
+![](ancova_files/figure-gfm/unnamed-chunk-17-1.png)<!-- -->
 
 ## Computation of ANCOVA test and Pairwise Comparison
 
@@ -190,7 +190,7 @@ plots <- twoWayAncovaPlots(sdat[["fss"]], "fss", between
 plots[["scenario"]]
 ```
 
-![](/home/rstudio/report/ancova/c398fc7079f00970/results/ancova_files/figure-gfm/unnamed-chunk-25-1.png)<!-- -->
+![](ancova_files/figure-gfm/unnamed-chunk-25-1.png)<!-- -->
 
 #### Plot for: `fss` \~ `achievement`
 
@@ -198,7 +198,7 @@ plots[["scenario"]]
 plots[["achievement"]]
 ```
 
-![](/home/rstudio/report/ancova/c398fc7079f00970/results/ancova_files/figure-gfm/unnamed-chunk-26-1.png)<!-- -->
+![](ancova_files/figure-gfm/unnamed-chunk-26-1.png)<!-- -->
 
 ### Textual Report
 
